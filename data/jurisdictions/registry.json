@@ -1,0 +1,10 @@
+{
+  "project": "GLOBAL LAW",
+  "schema_version": "1.0",
+  "jurisdictions": [
+    {"id":"EU","name":"European Union","type":"supranational","research_state":"REQUIRES INVESTIGATION"},
+    {"id":"IE","name":"Ireland","type":"sovereign_state","research_state":"REQUIRES INVESTIGATION"},
+    {"id":"RO","name":"Romania","type":"sovereign_state","research_state":"REQUIRES INVESTIGATION"}
+  ],
+  "note":"This is an initial registry. A jurisdiction is never considered complete merely because it has a registry entry."
+}

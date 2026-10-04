@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GLOBAL LAW Provenance",
+  "type": "object",
+  "required": ["authority_level","source_title","verification_date"],
+  "properties": {
+    "authority_level": {"enum":["A","B","C","D","E","F"]},
+    "source_title": {"type":"string"},
+    "source_url": {"type":["string","null"],"format":"uri"},
+    "persistent_identifier": {"type":["string","null"]},
+    "locator": {"type":["string","null"]},
+    "original_language": {"type":["string","null"]},
+    "publication_date": {"type":["string","null"],"format":"date"},
+    "verification_date": {"type":"string","format":"date"},
+    "retrieval_date": {"type":["string","null"],"format":"date"},
+    "translation_status": {"enum":["ORIGINAL","OFFICIAL","AUTHORIZED","UNOFFICIAL","AI_ASSISTED","UNKNOWN"]},
+    "limitations": {"type":["string","null"]}
+  }
+}

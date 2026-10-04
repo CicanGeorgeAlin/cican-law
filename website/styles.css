@@ -10,12 +10,12 @@ h1{margin:0;font-size:clamp(3rem,7.4vw,7rem);line-height:.94;letter-spacing:-.06
 .source{background:#020202}.line-list{margin-top:45px;border-top:1px solid var(--line)}.line-list div{display:grid;grid-template-columns:55px 1fr;padding:21px 0;border-bottom:1px solid var(--line)}.line-list span{color:#444;font-size:.65rem}.line-list b{font-size:.72rem;letter-spacing:.1em}.truth{color:#fff!important;font-weight:850;letter-spacing:.1em;font-size:.72rem!important;margin-top:45px!important}
 footer{padding:45px 7vw;color:#555;display:flex;align-items:baseline;gap:18px;flex-wrap:wrap}footer strong{color:#fff;font-size:.72rem;letter-spacing:.18em}footer span{font-size:.62rem;letter-spacing:.15em}footer p{width:100%;max-width:720px;margin:8px 0 0;font-size:.68rem}
 @media(max-width:700px){
-.topbar{padding:18px 20px}.topbar nav{display:none}.hero{min-height:100svh;padding:92px 20px 48px}.hero-inner{width:100%}
+.topbar{padding:18px 20px}.topbar nav{display:none}.hero{min-height:100svh;padding:92px 20px 48px}.hero-inner{width:100%;max-width:100%;overflow:hidden}
 .identity{margin-bottom:30px}.cican{font-size:.92rem;letter-spacing:.18em}.global{font-size:.58rem;letter-spacing:.25em}.rule{margin:9px 0}
-h1{font-size:clamp(2.35rem,12vw,4rem);line-height:.94;letter-spacing:-.055em}.lead{font-size:.9rem;line-height:1.45;margin-top:22px}
+h1{font-size:clamp(2.35rem,7vw,3.2rem);line-height:.92;letter-spacing:-.045em;max-width:100%;overflow-wrap:normal;word-break:normal}.lead{font-size:.9rem;line-height:1.45;margin-top:22px}
 .search{margin-top:32px}.search-box{display:flex}.search-box input{width:auto;min-width:0;min-height:54px;padding:16px}.search-box button{min-height:54px;padding:0 18px;font-size:.68rem}
 .start{grid-template-columns:1fr;width:100%;margin-top:18px}.start a{padding:18px;font-size:.62rem}.principles-mini{margin-top:22px;line-height:1.6;flex-wrap:wrap;font-size:.54rem}
-.section{display:block;padding:68px 20px}.section-label{margin-bottom:24px}.section h2{font-size:clamp(2.3rem,12vw,4.4rem)}.section-content>p{font-size:.92rem}.grid{grid-template-columns:1fr;margin-top:32px}.grid div{min-height:115px;padding:18px}.line-list{margin-top:32px}
+.section{display:block;padding:68px 20px}.section-label{margin-bottom:24px}.section h2{font-size:clamp(2.3rem,12vw,4.4rem)}.section-content>p{font-size:.92rem;overflow-wrap:anywhere}.grid{grid-template-columns:1fr;margin-top:32px}.grid div{min-height:115px;padding:18px}.line-list{margin-top:32px}
 footer{padding:32px 20px}
 }
 @media(max-width:390px){

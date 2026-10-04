@@ -27,3 +27,117 @@ main{max-width:1440px;margin:auto}
 @media(max-width:850px){.hero-grid{grid-template-columns:1fr}.hero-mark{display:none}.split-heading,.evidence-layout{grid-template-columns:1fr;gap:35px}.question-grid,.path-grid{grid-template-columns:repeat(2,1fr)}.promise-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:620px){.site-header{padding:16px 5vw}.site-header nav{display:none}.hero{min-height:calc(100vh - 57px);padding-top:70px}.hero h1{font-size:clamp(4.4rem,22vw,7rem)}.hero-subtitle{margin-top:30px}.search-row{display:block}.search-row button{width:100%;padding:16px}.entry-modes,.question-grid,.path-grid,.promise-grid,.world-links{grid-template-columns:1fr}.world-map{grid-template-columns:1fr 1fr}.world-axis:nth-child(n){grid-column:span 1}.world-axis{min-height:120px}.system-row{grid-template-columns:36px 1fr}.system-row p{grid-column:2}.status-grid{grid-template-columns:1fr}.section{padding:72px 5vw}.section h2{font-size:clamp(2.6rem,13vw,4.8rem)}.evidence-chain{gap:8px}.mission-line{line-height:1.8}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* CENTERED LANDING PAGE — CICAN LAW */
+.hero{
+  position:relative;
+  min-height:calc(100vh - 65px);
+  padding:8vh 5vw 6vh;
+  text-align:center;
+  overflow:hidden;
+  background:
+    radial-gradient(circle at 50% 42%, rgba(255,255,255,.055) 0, rgba(255,255,255,.018) 22%, transparent 48%),
+    #000;
+}
+.hero::before{
+  content:"";
+  position:absolute;
+  inset:8% 12%;
+  border:1px solid rgba(255,255,255,.035);
+  pointer-events:none;
+}
+.hero-grid{
+  display:block;
+  position:relative;
+  z-index:1;
+}
+.hero-mark{display:none}
+.hero-content{
+  max-width:1080px;
+  margin:0 auto;
+}
+.hero .eyebrow{
+  margin-bottom:24px;
+  color:#8a8a8a;
+}
+.hero h1{
+  font-size:clamp(4.8rem,13vw,11rem);
+  line-height:.86;
+  letter-spacing:-.085em;
+  white-space:nowrap;
+}
+.hero h1 br{display:none}
+.hero-subtitle{
+  max-width:900px;
+  margin:34px auto 10px;
+  font-size:clamp(1.25rem,2.8vw,2.25rem);
+  line-height:1.15;
+  letter-spacing:-.035em;
+}
+.hero-copy{
+  margin:0 auto;
+  color:#aaa;
+  font-size:1rem;
+  letter-spacing:.015em;
+}
+.search-console{
+  width:min(900px,100%);
+  margin:46px auto 0;
+  text-align:left;
+}
+.search-console label{text-align:center}
+.search-row{
+  min-height:62px;
+  box-shadow:0 0 0 1px rgba(255,255,255,.025);
+}
+.search-row input{
+  padding:19px 22px;
+  font-size:1rem;
+}
+.search-row button{
+  min-width:125px;
+}
+.search-note,.search-result{
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+}
+.entry-modes{
+  width:min(900px,100%);
+  margin:28px auto 0;
+  text-align:left;
+}
+.entry-card{
+  min-height:125px;
+  transition:background .2s ease,transform .2s ease;
+}
+.entry-card:hover{
+  transform:translateY(-2px);
+}
+.hero-actions{
+  justify-content:center;
+  margin-top:22px;
+}
+.button{
+  padding:14px 20px;
+}
+.trust-line{
+  position:relative;
+  z-index:1;
+  margin-top:46px;
+  text-align:center;
+}
+@media(max-width:620px){
+  .hero{
+    min-height:calc(100svh - 57px);
+    padding:70px 5vw 42px;
+  }
+  .hero::before{inset:5% 2%}
+  .hero h1{
+    font-size:clamp(4rem,20vw,6.5rem);
+    white-space:normal;
+  }
+  .hero-subtitle{margin-top:27px}
+  .search-console{margin-top:38px}
+  .entry-card{text-align:left}
+}

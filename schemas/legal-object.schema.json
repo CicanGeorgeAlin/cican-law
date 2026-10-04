@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GLOBAL LAW Legal Object",
+  "type": "object",
+  "required": ["id","object_type","jurisdiction","title","research_state","provenance"],
+  "properties": {
+    "id": {"type":"string"},
+    "object_type": {"type":"string"},
+    "jurisdiction": {"type":"string"},
+    "title": {"type":"string"},
+    "original_title": {"type":["string","null"]},
+    "original_language": {"type":["string","null"]},
+    "legal_status": {"type":["string","null"]},
+    "publication_date": {"type":["string","null"],"format":"date"},
+    "commencement_date": {"type":["string","null"],"format":"date"},
+    "repeal_date": {"type":["string","null"],"format":"date"},
+    "research_state": {"enum":["VERIFIED","PARTIALLY VERIFIED","REQUIRES INVESTIGATION","SOURCE UNAVAILABLE"]},
+    "investigation_gate": {"enum":["G0","G1","G2","G3","G4","G5","G6"]},
+    "provenance": {
+      "type":"array",
+      "items":{"$ref":"provenance.schema.json"}
+    },
+    "relationships": {
+      "type":"array",
+      "items":{"$ref":"relationship.schema.json"}
+    },
+    "notes": {"type":["string","null"]}
+  }
+}

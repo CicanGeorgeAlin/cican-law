@@ -1,191 +1,84 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="CICAN LAW — GLOBAL LAW. The world's laws, connected and explained.">
-  <meta name="theme-color" content="#000000">
-  <meta property="og:title" content="CICAN LAW — GLOBAL LAW">
-  <meta property="og:description" content="The world's laws, connected and explained.">
-  <meta property="og:type" content="website">
-  <title>CICAN LAW — GLOBAL LAW</title>
-  <link rel="stylesheet" href="./website/styles.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CICAN LAW — GLOBAL LAW</title>
+<meta name="description" content="CICAN LAW — GLOBAL LAW. The world's laws, connected and explained.">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#000000">
+<link rel="canonical" href="https://cicangeorgealin.github.io/cican-law/">
+<link rel="stylesheet" href="./website/styles.css">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
+<header class="topbar">
+  <a class="wordmark" href="./" aria-label="CICAN LAW home">CICAN LAW</a>
+  <nav aria-label="Main navigation"><a href="#search">SEARCH</a><a href="#global-law">GLOBAL LAW</a><a href="#principles">ABOUT</a></nav>
+</header>
 
-  <header class="site-header">
-    <a class="brand" href="./" aria-label="CICAN LAW home">CICAN LAW</a>
-    <nav aria-label="Primary navigation">
-      <a href="#search">Search</a>
-      <a href="#world">World</a>
-      <a href="#method">Evidence</a>
-    </nav>
-  </header>
-
-  <main id="main">
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-grid">
-        <div class="hero-content">
-          <div class="brand-lockup">
-            <div class="hero-brand">CICAN LAW</div>
-            <div class="brand-rule" aria-hidden="true"></div>
-            <div class="hero-global">GLOBAL LAW</div>
-          </div>
-          <h1 id="hero-title">THE WORLD'S LAWS,<br><span>CONNECTED AND EXPLAINED.</span></h1>
-          <p class="hero-subtitle">Find the law. Understand the law. Trace the law. Compare the law.</p>
-          <p class="hero-copy">A global legal knowledge system built from authoritative sources, connected across jurisdictions and explained for people.</p>
-
-          <div class="hero-entry">
-            <a class="button button-primary" href="#search">ENTER GLOBAL LAW</a>
-            <span>Search the law immediately.</span>
-          </div>
-
-          <form id="search" class="search-console" role="search">
-            <label for="law-search">Search the law</label>
-            <div class="search-row">
-              <input id="law-search" name="q" type="search" autocomplete="off" placeholder="Law, article, case, legal term, institution…" aria-describedby="search-note">
-              <button type="submit">SEARCH</button>
-            </div>
-            <p id="search-note" class="search-note">Search is being connected to the verified legal archive. Until a source is verified, CICAN LAW will not present it as established law.</p>
-            <p id="search-result" class="search-result" role="status" aria-live="polite"></p>
-          </form>
-
-          <div class="entry-modes" aria-label="Choose how to begin">
-            <button class="entry-card" data-entry="search">
-              <span class="entry-number">01</span>
-              <strong>I KNOW WHAT LAW I NEED</strong>
-              <span>Search directly by law, provision, case, institution or legal term.</span>
-            </button>
-            <button class="entry-card" data-entry="question">
-              <span class="entry-number">02</span>
-              <strong>I DON'T KNOW WHAT LAW I NEED</strong>
-              <span>Start with what is happening in your life, not legal terminology.</span>
-            </button>
-          </div>
-
-          <div class="hero-actions">
-            <a class="button button-primary" href="#question">START WITH A QUESTION</a>
-            <a class="button" href="#world">EXPLORE GLOBAL LAW</a>
-          </div>
-        </div>
-      </div>
-      <p class="trust-line">ORIGINAL LAW &nbsp;·&nbsp; EVIDENCE &nbsp;·&nbsp; EXPLANATION</p>
-    </section>
-
-    <section id="question" class="section question-section" aria-labelledby="question-title">
-      <div class="section-heading">
-        <p class="eyebrow">CITIZEN ENTRY</p>
-        <h2 id="question-title">START WITH YOUR LIFE.</h2>
-        <p>The same question should be understandable wherever you are in the world. Jurisdiction and date come next.</p>
-      </div>
-      <div class="question-grid">
-        <button class="question-card" data-query="I want to understand my rights"><span>01</span><strong>I want to understand my rights.</strong></button>
-        <button class="question-card" data-query="I have a housing or property problem"><span>02</span><strong>I have a housing or property problem.</strong></button>
-        <button class="question-card" data-query="I have an employment problem"><span>03</span><strong>I have an employment problem.</strong></button>
-        <button class="question-card" data-query="I need to understand a court decision"><span>04</span><strong>I need to understand a court decision.</strong></button>
-        <button class="question-card" data-query="I want to understand what this law means"><span>05</span><strong>I want to understand what this law means.</strong></button>
-        <button class="question-card" data-query="I need to know what law applies to my situation"><span>06</span><strong>I don't know what law applies.</strong></button>
-      </div>
-    </section>
-
-    <section id="world" class="section world-section" aria-labelledby="world-title">
-      <div class="section-heading split-heading">
-        <div>
-          <p class="eyebrow">THE WORLD</p>
-          <h2 id="world-title">ONE LEGAL WORLD.<br>MANY SYSTEMS.</h2>
-        </div>
-        <p>No country, continent or legal tradition is the centre of the system. Every jurisdiction is approached through the same evidence discipline, while its own legal structure remains distinct.</p>
-      </div>
-      <div class="world-map" aria-label="Global legal navigation">
-        <div class="world-axis">NATIONAL</div>
-        <div class="world-axis">REGIONAL</div>
-        <div class="world-axis">INTERNATIONAL</div>
-        <div class="world-axis">SUPRANATIONAL</div>
-      </div>
-      <div class="world-links">
-        <a href="#legal-systems">COUNTRIES <span>→</span></a>
-        <a href="#legal-systems">LEGAL SYSTEMS <span>→</span></a>
-        <a href="#legal-systems">COURTS &amp; TRIBUNALS <span>→</span></a>
-        <a href="#legal-systems">TREATIES &amp; INTERNATIONAL LAW <span>→</span></a>
-        <a href="#legal-systems">LEGISLATION <span>→</span></a>
-        <a href="#legal-systems">LEGAL TERMS <span>→</span></a>
-      </div>
-    </section>
-
-    <section id="legal-systems" class="section systems-section" aria-labelledby="systems-title">
-      <p class="eyebrow">THE LEGAL UNIVERSE</p>
-      <h2 id="systems-title">NOT A DIRECTORY.<br>A CONNECTED SYSTEM.</h2>
-      <div class="system-list">
-        <div class="system-row"><span>01</span><strong>JURISDICTIONS</strong><p>Countries, territories and other legal jurisdictions.</p></div>
-        <div class="system-row"><span>02</span><strong>LEGAL SYSTEMS</strong><p>Constitutional structures, legal traditions and institutions.</p></div>
-        <div class="system-row"><span>03</span><strong>LAW</strong><p>Constitutions, legislation, regulations, provisions and other authoritative instruments.</p></div>
-        <div class="system-row"><span>04</span><strong>COURTS</strong><p>Judgments, interpretations, precedents and judicial institutions.</p></div>
-        <div class="system-row"><span>05</span><strong>INTERNATIONAL</strong><p>Treaties, international organizations, courts and obligations connecting legal orders.</p></div>
-        <div class="system-row"><span>06</span><strong>CONCEPTS</strong><p>Legal terminology and concepts mapped without pretending that different systems are identical.</p></div>
-      </div>
-    </section>
-
-    <section class="section pathways" aria-labelledby="pathways-title">
-      <div class="section-heading">
-        <p class="eyebrow">LEGAL PATHWAYS</p>
-        <h2 id="pathways-title">FOLLOW THE LAW.</h2>
-      </div>
-      <div class="path-grid">
-        <div><span>01</span><b>FIND</b><p>Locate the relevant legal object.</p></div>
-        <div><span>02</span><b>VERIFY</b><p>See the source, authority, jurisdiction and status.</p></div>
-        <div><span>03</span><b>UNDERSTAND</b><p>Read the original provision, then the plain-language explanation.</p></div>
-        <div><span>04</span><b>CONNECT</b><p>See amendments, related laws, cases and legal concepts.</p></div>
-        <div><span>05</span><b>COMPARE</b><p>Ask the same legal question across jurisdictions without false equivalence.</p></div>
-        <div><span>06</span><b>TRAVEL THROUGH TIME</b><p>See what the law said, when it changed and what replaced it.</p></div>
-      </div>
-    </section>
-
-    <section id="method" class="section evidence" aria-labelledby="evidence-title">
-      <div class="evidence-layout">
-        <div>
-          <p class="eyebrow">SOURCE FIRST / TRUTH LAYER</p>
-          <h2 id="evidence-title">THE OFFICIAL SOURCE REMAINS THE AUTHORITY.</h2>
-        </div>
-        <div>
-          <p class="evidence-chain"><span>ORIGINAL SOURCE</span><i>→</i><span>LEGAL PROVISION</span><i>→</i><span>STATUS &amp; DATE</span><i>→</i><span>INTERPRETATION</span><i>→</i><span>EXPLANATION</span></p>
-          <p class="large-note">If we cannot prove it, we do not pretend to know it.</p>
-          <div class="status-grid">
-            <span>VERIFIED</span><span>PARTIALLY VERIFIED</span><span>REQUIRES INVESTIGATION</span><span>SOURCE UNAVAILABLE</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section promise" aria-labelledby="promise-title">
-      <p class="eyebrow">THE PROMISE</p>
-      <h2 id="promise-title">WE DON'T REWRITE THE LAW.<br>WE CONNECT YOU TO IT.</h2>
-      <div class="promise-grid">
-        <p>Original sources before summaries.</p>
-        <p>Current law separated from historical law.</p>
-        <p>Law separated from commentary and opinion.</p>
-        <p>Uncertainty shown instead of hidden.</p>
-      </div>
-    </section>
-
-    <section class="section mission" aria-labelledby="mission-title">
-      <p class="eyebrow">THE MISSION</p>
-      <h2 id="mission-title">THE LAW BELONGS<br>TO THE PUBLIC.</h2>
-      <p>GLOBAL LAW exists to make legal systems more findable, traceable, understandable and connected while preserving the authority of the original sources.</p>
-      <p class="mission-line">LEAVE NO LAW UNMAPPED. &nbsp; LEAVE NO CITIZEN UNABLE TO UNDERSTAND WHERE THE LAW COMES FROM.</p>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="footer-brand">
-      <strong>CICAN LAW</strong>
-      <span>GLOBAL LAW</span>
+<main>
+<section class="hero">
+  <div class="hero-inner">
+    <div class="identity">
+      <div class="cican">CICAN LAW</div>
+      <div class="rule"></div>
+      <div class="global">GLOBAL LAW</div>
     </div>
-    <nav aria-label="Footer navigation">
-      <a href="#method">Evidence</a><a href="#world">World</a><a href="#legal-systems">Legal systems</a><a href="#question">Citizen entry</a>
-    </nav>
-    <p class="disclaimer">CICAN LAW is an educational and informational platform. It does not replace applicable law, official legal sources, qualified legal advice or legal representation.</p>
-  </footer>
-  <script src="./website/app.js"></script>
+
+    <h1>THE WORLD'S LAWS,<br><em>CONNECTED AND EXPLAINED.</em></h1>
+    <p class="lead">Find the law. Understand the law. Trace the law. Compare the law.</p>
+
+    <form id="search" class="search" role="search">
+      <label for="q">SEARCH THE LAW</label>
+      <div class="search-box">
+        <input id="q" name="q" type="search" autocomplete="off" placeholder="Search a law, case, article or legal term">
+        <button type="submit">SEARCH</button>
+      </div>
+      <p id="search-message" aria-live="polite"></p>
+    </form>
+
+    <div class="start">
+      <a href="#search">I KNOW WHAT LAW I NEED <span>→</span></a>
+      <a href="#global-law">I DON'T KNOW WHAT LAW I NEED <span>→</span></a>
+    </div>
+
+    <div class="principles-mini">
+      <span>ORIGINAL LAW</span><i>·</i><span>EVIDENCE</span><i>·</i><span>EXPLANATION</span>
+    </div>
+  </div>
+</section>
+
+<section id="global-law" class="section">
+  <div class="section-label">GLOBAL LAW</div>
+  <div class="section-content">
+    <h2>ONE WORLD.<br>MANY LEGAL SYSTEMS.</h2>
+    <p>Every jurisdiction belongs in the same global legal picture. Each remains distinct, with its own sources, institutions, history and rules.</p>
+    <div class="grid">
+      <div><b>COUNTRIES</b><span>National laws and legal systems.</span></div>
+      <div><b>COURTS</b><span>Judgments, interpretation and precedent.</span></div>
+      <div><b>INTERNATIONAL</b><span>Treaties, institutions and international law.</span></div>
+      <div><b>LEGAL TERMS</b><span>Concepts explained across jurisdictions.</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="principles" class="section source">
+  <div class="section-label">SOURCE FIRST</div>
+  <div class="section-content">
+    <h2>THE OFFICIAL SOURCE<br>REMAINS THE AUTHORITY.</h2>
+    <p>We do not rewrite the law. We make it easier to find, understand, trace and connect while keeping the original source visible.</p>
+    <div class="line-list">
+      <div><span>01</span><b>ORIGINAL SOURCE</b></div>
+      <div><span>02</span><b>STATUS &amp; DATE</b></div>
+      <div><span>03</span><b>INTERPRETATION</b></div>
+      <div><span>04</span><b>EXPLANATION</b></div>
+    </div>
+    <p class="truth">IF WE CANNOT PROVE IT, WE DO NOT PRETEND TO KNOW IT.</p>
+  </div>
+</section>
+</main>
+
+<footer><strong>CICAN LAW</strong><span>GLOBAL LAW</span><p>Educational and informational platform. Not a substitute for official legal sources or qualified legal advice.</p></footer>
+<script src="./website/app.js"></script>
 </body>
 </html>

@@ -168,3 +168,27 @@ main{max-width:1440px;margin:auto}
   .hero-subtitle{font-size:clamp(1.05rem,5vw,1.55rem)!important;line-height:1.2!important}
   .hero-copy{font-size:.94rem;max-width:360px}
 }
+
+/* SIMPLE AUTHORITATIVE CICAN LAW IDENTITY */
+.hero-brand{
+  margin:0 0 22px;
+  color:#fff;
+  font-size:.9rem;
+  font-weight:850;
+  letter-spacing:.28em;
+  text-align:center;
+}
+.hero h1{
+  font-size:clamp(4.6rem,13vw,11rem)!important;
+  letter-spacing:-.075em!important;
+  line-height:.86!important;
+  text-align:center!important;
+}
+.hero-subtitle{
+  margin-top:34px!important;
+}
+.hero-logo{display:none!important}
+@media(max-width:620px){
+  .hero-brand{font-size:.76rem;letter-spacing:.22em;margin-bottom:20px}
+  .hero h1{font-size:clamp(3.7rem,16vw,6.5rem)!important;letter-spacing:-.08em!important}
+}

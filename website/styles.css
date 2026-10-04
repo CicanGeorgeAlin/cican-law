@@ -141,3 +141,30 @@ main{max-width:1440px;margin:auto}
   .search-console{margin-top:38px}
   .entry-card{text-align:left}
 }
+
+/* FINAL CENTERED HERO REFINEMENT */
+.hero{display:flex!important;align-items:center!important;text-align:center!important}
+.hero-grid{display:block!important;width:100%!important}
+.hero-content{width:min(1080px,100%)!important;margin:0 auto!important;display:flex!important;flex-direction:column!important;align-items:center!important}
+.hero-mark{display:none!important}
+.hero-logo{display:flex;align-items:center;justify-content:center;gap:12px;margin:0 auto 26px;color:#fff}
+.hero-logo-mark{display:grid;place-items:center;width:34px;height:34px;border:1px solid #777;border-radius:50%;font-size:.85rem;font-weight:800;letter-spacing:0}
+.hero-logo-name{font-size:.78rem;font-weight:800;letter-spacing:.2em}
+.hero .eyebrow{text-align:center!important;margin:0 0 20px!important;color:#777}
+.hero h1{text-align:center!important;font-size:clamp(4.2rem,12.5vw,10.5rem)!important;line-height:.86!important;letter-spacing:-.085em!important;white-space:nowrap!important;margin:0 auto!important}
+.hero-subtitle{text-align:center!important;margin:32px auto 10px!important;max-width:920px!important}
+.hero-copy{text-align:center!important;margin:0 auto!important;max-width:720px!important}
+.search-console{text-align:center!important;margin-left:auto!important;margin-right:auto!important}
+.search-console label{text-align:center!important}
+.entry-modes{text-align:left!important;margin-left:auto!important;margin-right:auto!important}
+.hero-actions{justify-content:center!important}
+.trust-line{text-align:center!important;margin-left:auto!important;margin-right:auto!important}
+@media(max-width:620px){
+  .hero{padding-left:20px!important;padding-right:20px!important}
+  .hero-logo{margin-bottom:22px}
+  .hero-logo-mark{width:30px;height:30px}
+  .hero-logo-name{font-size:.7rem;letter-spacing:.17em}
+  .hero h1{font-size:clamp(3.65rem,14vw,6.5rem)!important;white-space:nowrap!important;letter-spacing:-.09em!important}
+  .hero-subtitle{font-size:clamp(1.05rem,5vw,1.55rem)!important;line-height:1.2!important}
+  .hero-copy{font-size:.94rem;max-width:360px}
+}
